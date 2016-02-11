@@ -16,7 +16,7 @@ setup(
     long_description = long_description,
     author = 'Roland Tapken',
     author_email = 'roland at dau-sicher de',
-    packages = find_packages(['webkit2png']),
+    packages = find_packages(),
     zip_safe=True,
     include_package_data=True,
     package_dir = [],
