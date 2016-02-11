@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 version = '0.8.3'
 
@@ -16,7 +16,7 @@ setup(
     long_description = long_description,
     author = 'Roland Tapken',
     author_email = 'roland at dau-sicher de',
-    packages = find_packages(),
+    packages = ['webkit2png'],
     zip_safe=True,
     include_package_data=True,
     package_dir = [],
